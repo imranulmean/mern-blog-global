@@ -32,7 +32,7 @@ export default function Home() {
           </div>
       </section>      
 
-      <div className='p-3 bg-amber-100 dark:bg-slate-700'>
+      <div className='p-3  dark:bg-zinc-950'>
         <CallToAction />
       </div>
 
