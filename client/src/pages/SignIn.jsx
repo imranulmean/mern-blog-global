@@ -62,7 +62,7 @@ export default function SignIn() {
 
         <div className='flex-1'>
           <form className='flex flex-col gap-4' onSubmit={handleSubmit}>
-            <div>
+            {/* <div>
               <Label value='Your email' />
               <TextInput
                 type='email'
@@ -93,15 +93,15 @@ export default function SignIn() {
               ) : (
                 'Sign In'
               )}
-            </Button>
+            </Button> */}
             <OAuth />
           </form>
-          <div className='flex gap-2 text-sm mt-5'>
+          {/* <div className='flex gap-2 text-sm mt-5'>
             <span>Dont Have an account?</span>
             <Link to='/sign-up' className='text-blue-500'>
               Sign Up
             </Link>
-          </div>
+          </div> */}
           {errorMessage && (
             <Alert className='mt-5' color='failure'>
               {errorMessage}
