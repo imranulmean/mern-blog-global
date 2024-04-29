@@ -82,7 +82,7 @@ export default function Header() {
           {theme === 'light' ? <FaSun /> : <FaMoon />}
         </Button>
         {currentUser ? (
-          <Dropdown
+          <Dropdown className='dark:bg-zinc-900'
             arrowIcon={false}
             inline
             label={
